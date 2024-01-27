@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Any Title</title>
+</head>
+<body>
+
+    <h1>Your name</h1>
+
+    <p>Introduction about yourself</p>
+
+    <q>A quote from a famous saying that you like</q>
+
+    <br>
+    <br>
+
+    <p>
+        <b>Bold </b>
+        <i>Italic </i>
+        <strong>Strong </strong>
+        <mark>Highlight </mark>
+        Z = X<sup>2</sup> + H<sub>2</sub>O
+    </p>
+
+    <ol>
+        <li>Sport 1</li>
+        <li>Sport 2</li>
+        <li>Sport 3</li>
+    </ol>
+
+    <a href="http://www.google.com">My favorite website</a>
+
+    <br>
+    <br>
+
+    <img src="example.png" alt="example image" width="200px" height="200px">
+
+    <br>
+    <br>
+
+    <form>
+        <label for="FirstName">الإسم الأول</label>
+        <input type="text" id="FirstName">
+        <input type="submit" value="Send">
+    </form>
+
+    <!-- I am a code slayer -->
+
+</body>
+</html>
