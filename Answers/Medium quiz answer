@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Any Title</title>
+
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Lists Section</h1>
+      <div>
+        <h2>Unordered list sub section</h2>
+
+        <ul>
+          <li>The Lord of the Rings</li>
+          <li>Da Vinci Code</li>
+          <li>Alice in Wonderland</li>
+          <li>Harry Potter</li>
+        </ul>
+      </div>
+
+      <div>
+        <h2>Description list sub section</h2>
+        <dl>
+          <dt>Rolls-Royce La Rose Noire Droptail</dt>
+          <dd>price : 30$ Million</dd>
+          <dd>production : 2023</dd>
+          <dt>Bugatti La Voiture Noire</dt>
+          <dd>price : 18.7$ Million</dd>
+          <dd>production : 2021</dd>
+          <dt>Pagani Zonda HP Barchetta</dt>
+          <dd>price : 17.6$ Million</dd>
+          <dd>production : 2017</dd>
+          <dt>SP Automotive Chaos</dt>
+          <dd>price : 14.4$ Million</dd>
+          <dd>production : 2022</dd>
+        </dl>
+      </div>
+    </div>
+
+    <div>
+      <h1>Images Section</h1>
+
+      <div>
+        <h2>Local image sub section</h2>
+        <figure>
+          <img
+            src="codeSlayersLogo.png"
+            alt="local image"
+            width="200px"
+            height="200px"
+          />
+          <figcaption>Local Image</figcaption>
+        </figure>
+      </div>
+
+      <div>
+        <h2>Online image sub section</h2>
+        <figure>
+          <img
+            src="https://www.freecodecamp.org/news/content/images/size/w1000/2022/12/main-image.png"
+            alt="online image"
+            width="200px"
+            height="200px"
+          />
+          <figcaption>Online Image</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div>
+      <h1>Form Section</h1>
+
+      <div>
+        <h2>Personal form sub section</h2>
+
+        <form>
+          <label for="firstName">First name: </label>
+          <input type="text" name="firstName" id="firstName" />
+          <br />
+          <label for="familyName">Family name: </label>
+          <input type="text" name="familyName" id="familyName" />
+          <br />
+          <label for="age">Age: </label>
+          <input type="number" name="age" id="age" />
+          <br />
+          <label for="birthDay">Birthday: </label>
+          <input type="date" name="birthDay" id="birthDay" />
+          <br />
+          <label for="gender">Male :</label>
+          <input type="radio" name="gender" id="male" />
+          <br />
+          <label for="gender">Female :</label>
+          <input type="radio" name="gender" id="female" />
+          <br />
+          <select name="cities" id="cities">
+            <option value="Gaza">Gaza</option>
+            <option value="Cairo">Cairo</option>
+            <option value="Moroco">Moroco</option>
+            <option value="Algiers">Algiers</option>
+          </select>
+          <br />
+          <input type="submit" value="Register" />
+        </form>
+      </div>
+    </div>
+
+    <div>
+      <h1>Tables Section</h1>
+
+      <div>
+        <h2>Movies table sub section</h2>
+
+        <table>
+          <tr>
+            <th>Title</th>
+            <th>Director</th>
+            <th>Year</th>
+          </tr>
+          <tr>
+            <td>Movie 1</td>
+            <td>Director 1</td>
+            <td>Year 1</td>
+          </tr>
+          <tr>
+            <td>Movie 2</td>
+            <td>Director 2</td>
+            <td>Year 2</td>
+          </tr>
+          <tr>
+            <td>Movie 3</td>
+            <td>Director 3</td>
+            <td>Year 3</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
