@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="authour" content="your name">
+    <meta name="description" content="your description">
+    <meta name="keywords" content="word1, word2, word3">
+
+    <title>Semantic HTML Example</title>
+
+<link rel="stylesheet" href="styles.css">
+<script src="script.js"></script>
+
+    <style>
+        table,th,td{
+            border: 1px solid;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#"></a>Home</li>
+            <li><a href="#"></a>Product</li>
+            <li><a href="#"></a>About us</li>
+        </ul>
+    </nav>
+
+  <header>
+    <h1>Main Page Title</h1>
+  </header>
+
+  <main>
+    <h1>Main section title</h1>
+    <section>
+        <h2>Section title</h2>
+      <article>
+        <h3>Article 1</h3>
+        <p>Content of Article 1...</p>
+
+        <form>
+          <label for="name">Name : </label>
+          <input type="text" id="name" name="name">
+          <br>
+
+          <label for="email">E-mail : </label>
+          <input type="email" id="email" name="email">
+          <br>
+
+          <label for="dropdown">Select an option : </label>
+          <select id="dropdown" name="dropdown">
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+          </select>
+          <br>
+
+          <label>Select gender : </label>
+          <br>
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Male</label>
+          <br>
+
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label>
+          <br>
+
+          <label>Drink options:</label>
+          <br>
+          <input type="checkbox" id="drink1" name="drink1" value="drink1">
+          <label for="drink1">drink 1</label>
+
+          <input type="checkbox" id="drink2" name="drink2" value="drink2">
+          <label for="drink2">drink 2</label>
+
+          <input type="checkbox" id="drink3" name="drink3" value="drink3">
+          <label for="drink3">drink 3</label>
+
+          <input type="checkbox" id="drink4" name="drink4" value="drink4">
+          <label for="drink4">drink 4</label>
+          <br>
+
+          <button type="submit">Submit</button>
+        </form>
+      </article>
+
+      <article>
+        <h3>Article 2</h3>
+        <p>Content of Article 2...</p>
+
+        <table>
+          <caption>Table Title</caption>
+          <thead>
+            <tr>
+              <th></th>
+              <th>Column 1</th>
+              <th>Column 2</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Row 1</th>
+              <td>Data 1-1</td>
+              <td>Data 1-2</td>
+            </tr>
+            <tr>
+              <th>Row 2</th>
+              <td>Data 2-1</td>
+              <td>Data 2-2</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+
+      <article>
+        <h3>Article 3 with Iframe</h3>
+        <p>Content of Article 3...</p>
+        <iframe src="example.html" width="600" height="400" title="Local Content"></iframe>
+      </article>
+
+      <article>
+        <h3>Article 4 with Hidden text</h3>
+        <p>Content of Article 4...</p>
+
+        <p>
+            I have some hidden text inside me!
+
+            <details>
+                this is the hidden text!!!
+                <summary>
+                    Show more
+                </summary>
+            </details>
+        </p>
+        
+      </article>
+
+    </section>
+  </main>
+
+  <aside>
+    <h1>Aside Title</h1>
+    <p>Aside content...</p>
+
+    <figure>
+        <img src="Example.png" alt="Local Image" width="200px">
+        <figcaption>Local image</figcaption>
+        <br>
+
+        <img src="https://www.example.com/example.png" alt="Online Image" width="200px">
+        <figcaption>Online image</figcaption>
+    </figure>
+  </aside>
+
+  <footer>
+    <h1>Footer</h1>
+    <p>Footer content...</p>
+
+    <cite>Your name 2024</cite>
+  </footer>
+
+</body>
+</html>
